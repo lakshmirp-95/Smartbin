@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lo"
+    tools:context=".Front">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="350dp"
+        android:textSize="50dp"
+        android:fontFamily="cursive"
+        android:background="@drawable/edit_round"
+        android:text="USER" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:textSize="50dp"
+        android:background="@drawable/edit_round"
+        android:fontFamily="cursive"
+        android:text="DRIVER" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50dp"
+        android:text="SMART BIN" />
+</RelativeLayout>
